@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang ="es">
+    <head>
+        <title>Turismo Córdoba</title>
+        <meta charser="utf-8">
+        <meta name="description" content="Córdoba ciudad de patrimonio">
+        <meta name ="keywords" content="Turismo, patrimonio, viajes">
+    </head>
+    <body>
+        <header>
+            Córdoba Ciudad Patrimonio
+        </header>
+        <nav>
+        La Mezquita | Caso Histórico | Los Patios | Medina Azahara
+        </nav>
+            <main>
+                <secion>
+                    <article>
+                        Contenido noticia 1
+                    </article>
+                    <article>
+                        Contenido noticia 2
+                    </article>
+                </secion>
+                <aside>
+                    Agenda
+                    Publicidad
+                </aside>
+            </main>
+            <footer>
+                &copy; Todos los derechos reservados.
+            </footer>
+    </body>
+</html>
