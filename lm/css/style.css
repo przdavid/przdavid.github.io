@@ -1,27 +1,27 @@
-.guitarsat {
+#guitarra1 {
   display: inline;
   align-content: center;
-  width: 250px;
+  width: 200px;
   -webkit-filter: saturate(4);
   -moz-filter: saturate(4);
   -o-filter: saturate(4);
   -ms-filter: saturate(4);
 }
 
-.guitarop {
+#guitarra2 {
   display: inline;
   align-content: center;
-  width: 250px;
+  width: 200px;
   -webkit-filter: opacity(0.5);
   -moz-filter: opacity(0.5);
   -o-filter: opacity(0.5);
   -ms-filter: opacity(0.5);
 }
 
-.gitarblur {
+#guitarra3 {
   display: inline;
   align-content: center;
-  width: 250px;
+  width: 200px;
   -webkit-filter: blur(3px);
   -moz-filter: blur(3px);
   -o-filter: blur(3px);
