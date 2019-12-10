@@ -1,164 +1,43 @@
 <!DOCTYPE html>
-<html lang ="es">
-    <head>
-        <title>Inicio</title>
-        <meta charset="utf-8">
-        <meta name="description" content="Inicio">
-        <meta name ="keywords" content="ejercicios, examen, lenguaje, marcas">
-    </head>
-    <body>
-        <header>
-            <h1 id=top>Inicio</h1>
-        </header>
-        <nav>
-            <li><a href="#ej1"> Ejercicio 1</a></li>
-            <li><a href="#ej2"> Ejercicio 2</a></li>
-            <li><a href="#ej3"> Ejercicio 3</a></li>
-            <li><a href="#ej4"> Ejercicio 4</a></li>
-        </nav>
-            <main>
-                <section>
-                    <article>
-                        <h1 id=ej1>Ejercicio 1</h1>
-                        <img src="sistemasolar.jpg" usemap="sistemasolar">
-                            <map name="sistemasolar">
-                                <area alt="Sol" shape="circle" coords="0,335,95" href="https://es.wikipedia.org/wiki/Sol">
-                                <area alt="Mercurio" shape="circle" coords="124,218,9" href="https://es.wikipedia.org/wiki/Mercurio_(planeta)">
-                                <area alt="Venus" shape="circle" coords="155,205,12" href="https://es.wikipedia.org/wiki/Venus_(planeta)">
-                                <area alt="Tierra" shape="circle" coords="190,190,12" href="https://es.wikipedia.org/wiki/Tierra">
-                                <area alt="Marte" shape="circle" coords="225,173,9" href="https://es.wikipedia.org/wiki/Marte_(planeta)">
-                                <area alt="Júpiter" shape="circle" coords="420,315,75" href="https://es.wikipedia.org/wiki/Júpiter_(planeta)">
-                                <area alt="Urano" shape="circle" coords="715,175,30" href="https://es.wikipedia.org/wiki/Urano_(planeta)">
-                                <area alt="Marte" shape="circle" coords="790,140,30" href="https://es.wikipedia.org/wiki/Neptuno_(planeta)">
-                            </map>
-                            <p><a href="#top">Volver al inicio</a></p>
-                    </article>
-                    <article>
-                        <h1 id=ej2>Ejercicio 2</h1>
-                        <p>Tecnologías web:</p>
-                        <hr>
-                        <dl>
-                        <dt>CSS</dt>
-                        <dd>Cascading Style Sheets</dd>
-                        </dl>
-                        <dl>
-                        <dt>HTML</dt>
-                        <dd>HyperText Markup Language</dd>
-                        </dl>
-                        <dl>
-                        <dt>W3C</dt>
-                        <dd>World Wide Web Consortium</dd>
-                        </dl>
-                        <p><a href="#top">Volver al inicio</a></p>
-                    </article>
-                    <article>
-                        <h1 id=ej3>Ejercicio 3</h1>
-                        <table border = "1">
-                            <tr>
-                            <th></th>
-                            <th colspan = "2">Mafalda</th>
-                            <th colspan = "2">Mortadelo</th>
-                            </tr>
-                            <tr>
-                            <td><strong>Fecha</strong></td>
-                            <td><strong>Entrada</strong></td>
-                            <td><strong>Salida</strong></td>
-                            <td><strong>Entrada</strong></td>
-                            <td><strong>Salida</strong></td>
-                            </tr>
-                            <tr>
-                            <td><strong>15/10</strong></td>
-                            <td>8:00</td>
-                            <td>15:00</td>
-                            <td>10:00</td>
-                            <td>12:00</td>
-                            </tr>
-                            <tr>
-                            <td><strong>16/10</strong></td>
-                            <td>9:00</td>
-                            <td>15:00</td>
-                            <td>9:30</td>
-                            <td>15:30</td>
-                            </tr>
-                            <tr>
-                            <td><strong>09/08</strong></td>
-                            <td>8:30</td>
-                            <td>12:30</td>
-                            <td>10:00</td>
-                            <td>22:00</td>
-                            </tr>
-                            <tr>
-                            <td><strong>22/10</strong></td>
-                            <td>18:00</td>
-                            <td>19:00</td>
-                            <td>10:00</td>
-                            <td>16:00</td>
-                            </tr>
-                            <tr>
-                            <td><strong>25/10</strong></td>
-                            <td>8:00</td>
-                            <td>12:00</td>
-                            <td>11:00</td>
-                            <td>17:00</td>
-                            </tr>
-                            <tr>
-                            <td><strong>Importe Horas</strong></td>
-                            <td colspan = "2">250€</td>
-                            <td colspan= "2">325€</td>
-                            </tr>
-                        </table>
-                        <p><a href="#top">Volver al inicio</a></p>
-                    </article>
-                    <article>
-                        <h1 id=ej4>Ejercicio 4</h1>
-                        <fieldset>
-                            <legend>Información principal</legend>
-                            <form method="get">
-                                <p><input type="text" name="nombre" placeholder="Nombre" size="10"></p>
-                                <p><input type="text" name="apellido" placeholder="Apellido" size="10"></p>
-                                <p>Grupo de edad:</p>
-                                <p>
-                                    <input type="radio" name="edad" value="0"> 0 - 30
-                                    <input type="radio" name="hm" value="31"> 31 - 60
-                                    <input type="radio" name="hm" value="61"> 61 - 100
-                                </p>
-                            </form>
-                        </fieldset>
-                        <fieldset>
-                                <legend>Información adicional</legend>
-                                <p>Biografía</p>
-                                <textarea name="texto" rows="4" cols="20"></textarea>
-                                <fieldset>
-                                    <legend>Intereses</legend>
-                                    <p>Hobbies:</p>
-                                    <select name="hobbies" size="4">
-                                        <option value="1">Deportes</option>
-                                        <option value="2">Lectura</option>
-                                        <option value="3">Cine</option>
-                                        <option value="4">Naturaleza</option>
-                                    </select>
-                                    <p>Red social favorita:
-                                    <select name="redes">
-                                        <option selected>-</option>
-                                        <optgroup label="Redes sociales profesionales:">
-                                            <option value="1">Linkedin</option>
-                                            <option value="2">Xing</option>
-                                        </optgroup>
-                                        <optgroup label="Redes sociales personales:">
-                                            <option value="4">Facebook</option>
-                                            <option value="5">Instagram</option>
-                                        </optgroup>
-                                    </select>
-                                    </p>
-                                </fieldset>
-                        </fieldset>
-                        <p><a href="#top">Volver al inicio</a></p>
-                    </article>
-                </section>
-            </main>
-            <footer>
-                &copy; Todos los derechos reservados.
-                <address>David Pérez Ruiz</address>
-            </footer>
-    </body>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Lenguaje de Marcas</title>
+    <link rel ="icon" type = "image/png" href = "img/logolm.png">
+    <link rel = "stylesheet" href = "css/style.css">
+  </head>
+  <body>
+    <header>
+        <img src = "img/banner.png" alt = "Lenguaje de Marcas" title = "">
+    </header>
+    <article>
+        <center><h1>Actividades de clase</h1></center>
+        <div>
+          <a class = "boton tema" href = "https://przdavid.github.io/lm/tema1/tema1.html">Tema 1</a>
+          <a class = "boton tema" href = "https://przdavid.github.io/lm/tema2/tema2.html">Tema 2</a>
+          <a class = "boton tema" href = "https://przdavid.github.io/lm/tema3/tema3.html">Tema 3</a>
+          <a class = "boton tema" href = "https://przdavid.github.io/lm/tema4/tema4.html">Tema 4</a>
+        </div>
+      </article>
+      <article>
+        <center><h1>Proyectos</h1></center>
+        <div>
+          <a class = "boton proyecto" href = "https://przdavid.github.io/lm/ccp/index.html" target = "_blank">Turismo Córdoba</a>
+          <a class = "boton proyecto" href = "https://przdavid.github.io/lm/recetas/index.html" target = "_blank">Recetas</a>
+        </div>
+      </article>
+      <article>
+        <center><h1>Exámenes</h1></center>
+        <div>
+          <a class = "boton examen" href = "examen1.html" target = "_blank">Examen HTML</a>
+        </div>
+      </article>
+      <article>
+        <a class = "index" href = "https://przdavid.github.io/index.html">Volver al portfolio</a>
+      </article>
+  </body>
+  <footer>
+    &copy; Todos los derechos reservados.
+    <address>David Pérez Ruiz</address>
+  </footer>
 </html>
