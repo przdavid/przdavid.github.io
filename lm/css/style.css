@@ -1,29 +1,84 @@
-#guitarra1 {
-  display: inline;
-  align-content: center;
-  width: 200px;
-  -webkit-filter: saturate(4);
-  -moz-filter: saturate(4);
-  -o-filter: saturate(4);
-  -ms-filter: saturate(4);
+header {
+  text-align: center;
 }
 
-#guitarra2 {
-  display: inline;
-  align-content: center;
-  width: 200px;
-  -webkit-filter: opacity(0.5);
-  -moz-filter: opacity(0.5);
-  -o-filter: opacity(0.5);
-  -ms-filter: opacity(0.5);
+body {
+  display: block;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: Calibri;
+  background-color: #ebf7ff;
 }
 
-#guitarra3 {
-  display: inline;
-  align-content: center;
-  width: 200px;
-  -webkit-filter: blur(3px);
-  -moz-filter: blur(3px);
-  -o-filter: blur(3px);
-  -ms-filter: blur(3px);
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 60%;
+  border: solid #2f0076 5px;
+  border-radius: 50px;
+  background-color: #6600ff;
+  font-size: 28px;
+  color: white;
+  box-shadow: 1px 3px 3px 1px #62859d;
+}
+
+div {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+article {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.boton {
+  background-color: #ff6600;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.tema {width: 55px;}
+.proyecto {width: 120px;}
+.examen {width: 95px;}
+
+.tema:hover, .proyecto:hover, .examen:hover {
+  background-color: #ff944d;
+  box-shadow: 0px 5px 5px 0px #62859d;
+  transition: 0.4s
+}
+
+.index {
+  border: none;
+  decoration: none;
+  color: white;
+  text-decoration: none;
+  background-color: #6600ff;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+
+.index:hover {
+  background-color: #944dff;
+  box-shadow: 0px 5px 5px 0px #62859d;
+  transition: 0.4s
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Calibri;
 }
