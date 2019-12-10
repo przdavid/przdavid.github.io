@@ -1,0 +1,48 @@
+header {
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+body {
+  display: block;
+  color: white;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: Calibri;
+  background-color: #8500ff;
+}
+
+article {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.boton {
+  background-color: #ffda00;
+  border: none;
+  color: black;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #ffe54d;
+  box-shadow: 0px 5px 5px 0px #330062;
+  transition: 0.4s
+}
+
+footer {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  font-family: Calibri;
+}
