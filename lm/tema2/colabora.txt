@@ -1,0 +1,33 @@
+Cuestionario realizado por David Pérez Ruiz
+
+::Escoge la opción correcta::
+
+1. ¿En qué se diferencia el lenguaje de marcado con respecto al lenguaje de programación?{
+	~No distingue entre caracteres y números.
+	=No tiene funciones aritméticas o variables.
+	~No posee la capacidad de impartir instrucciones.
+	~En nada. El lenguaje de marcado es un lenguaje de programación.}
+
+2. ¿Cuál de estas clasificaciones no corresponde a la de los lenguajes de marca?{
+	~Descriptivo.
+	~De presentación
+	=Dinámicos.
+	~Procedimentales.}
+
+3. ¿Cuál es un lenguaje de marcado?{
+	=XML.
+	~AWK.
+	~HAL.
+	~Igbo.}
+
+4. ¿Qué herramienta se emplea para construir archivos con lenguaje de marcado?{
+	~Procesador de textos.
+	=Editor de textos.
+	~Codificador de textos.
+	~Modulador de textos.}
+
+5. ¿Qué quiere decir que el lenguaje de marcado presenta "compacidad"?{
+	~Que las instrucciones de marcado se unen y se dividen a intervalos constantes de datos.
+	~Que las instrucciones de marcado se cotejan para que prevalezca aquella que posee mayor cantidad de información.
+	~Que las instrucciones de marcado son compatibles entre sí.
+	=Que las instrucciones de marcado se entremezclan con el propio contenido.}
