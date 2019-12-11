@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Formularios</title>
+    <link rel ="icon" type = "image/png" href = "img/logolm.png">
+    <link rel = "stylesheet" href = "css/style.css">
+  </head>
+  <body>
+    <nav>
+      <center><a class = "ejercicio" href = "tema3.html">Volver al índice</a></center>
+    </nav>
+    <header>
+      <center><h1>Formularios</h1></center>
+    </header>
+    <article>
+      <form>
+        <p><input type = "text" name = "nombre" placeholder = "Nombre"> <input type = "submit" value = "Enviar"></p>
+      </form>
+      <hr>
+    </article>
+    <article>
+      <form>
+        <p>Nombre: <input type = "text" name = "nombre" value = "Jose" maxlength = "40" title = "Tamaño de 40 caracteres"> <input type = "submit" value = "Enviar"></p>
+      </form>
+      <hr>
+    </article>
+    <article>
+      <form>
+        <p>Nombre: <input type = "text" name = "nombre" value = "Jose" title = "Este campo está desactivado" disabled> <input type = "submit" value = "Enviar"></p>
+      </form>
+      <hr>
+    </article>
+    <article>
+      <p>Color favorito:</p>
+      <form>
+        <input type = "radio" name = "color" value = "rojo"> Rojo<br>
+        <input type= "radio" name = "color" value = "azul" checked> Azul<br>
+        <input type = "submit" value = "Enviar">
+        </form>
+      <hr>
+    </article>
+    <article>
+      <form>
+        <select name = "coches">
+          <option value = "volvo">Volvo</option>
+          <option value = "ford">Ford</option>
+          <option value = "fiat">Fiat</option>
+          <option value = "audi">Audi</option>
+        </select>
+        <input type="submit">
+      </form>
+      <hr>
+    </article>
+    <article>
+      <form>
+        <textarea name = "texto" rows="10" cols="30"></textarea>
+        <br>
+        <input type="submit" value = "send">
+      </form>
+    </article>
+  </body>
+  <footer>
+    &copy; Todos los derechos reservados.
+    <address>David Pérez Ruiz</address>
+  </footer>
+</html>
