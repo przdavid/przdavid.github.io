@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #ebf7ff;
+}
+
+body {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "aside"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 220px 1fr 1fr 220px 50px;
+  grid-gap: 10px;
+}
+
+.titulo {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #b50128;
+  border-bottom: solid #0a28fc 3px;
+  border-top: solid #0a28fc 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+p {
+  margin: 10px 0px 10px;
+}
+
+@media (min-width: 730px) {
+  .banner {
+    height: 220px;
+  }
+
+  .imagen {
+    width: 50%;
+  }
+
+  body {
+    display: grid;
+    grid-template-areas: "header header"
+                          "nav main"
+                          "footer footer";
+    grid-template-columns: 220px 1fr;
+    grid-template-rows: 220px 1fr 50px;
+    grid-gap: 5px;
+  }
+
+  body > nav {
+    grid-area: nav;
+    background-color: #2f0076;
+    color: white;
+    margin: 4px;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: column-reverse;
+  }
+
+  .boton {
+    width: 170px;
+    height: 45px;
+    margin: 4px 2px;
+    padding: 15px 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ffe600;
+    color: black;
+    text-decoration: none;
+    display: inline-block
+  }
+
+  .boton:hover {
+    background-color: #fff59a;
+    transition: 0.4s;
+  }
+
+  .enlace {
+    width: 300px;
+    height: 40px;
+    margin: 2px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .enlace:hover {
+    background-color: #ff944d;
+    box-shadow: 0px 5px 5px 0px #62859d;
+    transition: 0.4s;
+  }
+}
+
+@media (max-width: 730px) {
+  .banner {
+    height: 30vw;
+    margin-top: 25px;
+  }
+
+  body > nav {
+    grid-area: nav;
+    background-color: #2f0076;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .boton {
+    width: 97%;
+    height: 45px;
+    margin: 4px 2px;
+    padding: 15px 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ffe600;
+    color: black;
+    text-decoration: none;
+    display: inline-block
+  }
+
+  .boton:hover {
+    background-color: #fff59a;
+    transition: 0.4s;
+  }
+
+  .enlace {
+    width: 97%;
+    height: 50px;
+    margin: 4px 2px;
+    padding: 15px 10px;
+    border-radius: 25px;
+    font-size: 14px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .enlace:hover {
+    background-color: #ff944d;
+    box-shadow: 0px 5px 5px 0px #62859d;
+    transition: 0.4s;
+  }
+}
+
+@media (max-width: 450px) {
+  .banner {
+    height: 40vw;
+    margin-top: 40px;
+  }
+}
+
+body > header {
+  grid-area: header;
+  text-align: center;
+}
+
+body > main {
+  grid-area: main;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-left: solid 5px #2f0076;
+  font-size: 30px;
+  font-family: Montserrat;
+  font-weight: bold;
+  color: white;
+  background-color: #6600ff;
+}
+
+h2 {
+  text-align: center;
+  margin: 5px 0px 5px 10px;
+  padding: 5px;
+  font-size: 24px;
+  font-family: Montserrat;
+  border-bottom: solid 5px #2f0076;
+}
+
+h3 {
+  text-align: left;
+  margin: 5px 0px 5px 10px;
+  padding: 5px;
+  font-size: 15px;
+  font-family: Montserrat;
+  border-bottom: solid 5px #ffe600;
+}
+
+body > footer {
+  grid-area: footer;
+  text-align: center;
+  padding: 10px;
+}
