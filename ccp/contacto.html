@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel ="icon" type = "image/png" href = "img/logoccp.png">
+    <title>Contacto</title>
+</head>
+<body>
+    <header><img class = "banner" src = "img/banner.png" alt = "Córdoba Ciudad Patrimonio" title = ""></header>
+    <nav>
+        <div><a class = "enlace" href = "index.html">Inicio</a></div>
+        <div><a class = "enlace" href = "mezquita.html">La Mezquita</a></div>
+        <div><a class = "enlace" href = "casco.html">Casco histórico</a></div>
+        <div><a class = "enlace" href = "patios.html">Los patios</a></div>
+        <div><a class = "enlace" href = "medina.html">Medina Azahara</a></div>
+        <div><a class = "active" href = "#">Contacto</a></div>
+    </nav>
+    <main>
+      <article>
+        <p class = "titulo">Contacto</p>
+      </article>
+      <article>
+        <p>
+          <form name = "formulario" method = "get" action = "mailto:a19peruda@iesgrancapitan.org">
+            <fieldset>
+              <legend>Información principal</legend>
+                <p><label>Nombre:<br>
+                  <input type ="text" name = "nombre" maxlength= "15"</label></p>
+                <p><label>Apellidos:<br>
+                  <input type ="text" name = "apellidos" maxlength= "30"</label></p>
+                <p><label>Edad:<br>
+                  <input type ="number" name = "edad"</label></p>
+                <p><label for = "listado"> Nacionalidad:<br></label>
+                  <select name = "nacionalidad" id = "listado">
+                    <option value = "0">-</option>
+                    <option value = "1">Española</option>
+                    <option value = "2">Inglesa</option>
+                    <option value = "3">Francesa</option>
+                    <option value = "4">Italiana</option>
+                    <option value = "4">Otra</option>
+                  </select>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Información adicional</legend>
+                <p><label>Correo:<br>
+                  <input type ="email" name = "correo"</label></p>
+                <p><label>Teléfono:<br>
+                  <input type ="tel" name = "telefono"</label></p>
+                <p><label>Sitio Web:<br>
+                  <input type ="url" name = "sitioweb"</label></p>
+            </fieldset>
+            <p><center><input type ="submit" value = "Enviar"</center></p>
+          </form>  
+        </p>
+      </article>
+      <p><center><a href = "#top"><img src = "img/toparrow.png" alt = "" widht = "50" height= "50"></a><br><a class = arrow href = "#top">Volver al principio</a></center></p>
+    </main>
+    <aside>
+        <p><strong>Enlaces de interés</strong></p>
+        <div><a class = "enlace" href = "http://www.turismodecordoba.org" target = "_blank">Turismo Córdoba</a></div>
+        <p><strong>Descargas</strong></p>
+        <div><a class = "enlace" href = "img/planomezquita.png" download = "planomezquita" target = "_blank">Mapa</a></div>
+    </aside>
+    <footer>
+        &copy; Todos los derechos reservados.
+        <address>David Pérez Ruiz</address>
+    </footer>
+</body>
+</html>
