@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+header {
+  text-align: center;
+}
+
+body {
+  display: block;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: Lato;
+}
+
+section {
+  border: solid 1px black;
+}
+
+.klematis {
+  background-image: url("../img/klematis.jpg");
+  background-repeat: no-repeat;
+  background-size: 110%;
+  width: 450px;
+}
+
+.horizontal {
+  width: 200px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 60%;
+  border: solid #2f0076 5px;
+  border-radius: 50px;
+  background-color: #6600ff;
+  font-size: 28px;
+  color: white;
+  box-shadow: 1px 3px 3px 1px #62859d;
+}
+
+div {
+  width: 80%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.grilla {
+  display: grid;
+  grid-column: auto;
+  padding: 5px;
+}
+
+article {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  border-bottom: solid 2px #00b4e6;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #00b4e6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: blue;
+  transition: 0.4s
+}
+
+.active {
+  background-color: blue;
+}
+
+.titulo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.boton {
+  background-color: #ffda00;
+  color: black;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.boton:hover {
+  background-color: #ffe54d;
+  box-shadow: 0px 5px 5px 0px #62859d;
+  transition: 0.4s
+}
+
+div {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.grilla {
+  display: grid;
+  width: 500px;
+  grid: auto / auto auto;
+  grid-gap: 5px;
+  padding: 2px;
+  text-align: center;
+  font-size: 16px;
+}
+
+#lorem1 {
+  border: solid 1px black;
+  margin: 50px;
+  background-color: white;
+  opacity: 50%;
+}
+
+#caja1 {
+  background-image: url("../img/klematis.jpg");
+  background-repeat: no-repeat;
+  background-size: 110%;
+  width: 200px;
+  height: 100px;
+  opacity: 50%;
+  text-align: left;
+  color: white;
+  padding: 10px;
+}
+
+#caja1:hover {
+  opacity: 100%;
+}
+
+#caja2 {
+  border: solid black 2px;
+  width: 200px;
+  height: 100px;
+  text-align: left;
+  padding: 10px;
+}
+
+#yellow {
+  background-color: yellow;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 10px;
+}
+
+table {
+  width: 70%;
+}
+
+th:nth-child(odd){
+  background: darkslateblue;
+}
+
+th:nth-child(even) {
+  background: #4fcfa1;
+}
+
+.par {
+  background: white;
+  text-align: center;
+}
+
+.impar {
+  background: lightgray;
+  text-align: center;
+}
+
+td:hover {
+  background: #a3d8ad;
+}
+
+.tabla{
+  background: #00b4e6;
+  padding: 30px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+}
