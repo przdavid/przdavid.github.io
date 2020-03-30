@@ -1,0 +1,44 @@
+h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nosubraya {
+  text-decoration: none;
+}
+
+.gris {
+  margin: 10px;
+  padding: 20px;
+  background-color: #aaaaaa;
+  width: 70%;
+}
+
+#p1 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#p3 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#p4 {
+  font-family: cursive;
+}
+
+#p5 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.inicial::first-letter {
+  font-size: 200%;
+  color: red;
+}
+
+#topline {
+  text-decoration: overline green;
+}

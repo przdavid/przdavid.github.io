@@ -1,0 +1,30 @@
+#p1 {
+  border: solid 2px blue;
+  color: blue;
+  padding: 10px;
+  width: 50%;
+}
+
+#p2 {
+  border: solid 2px green;
+  color: blue;
+  padding: 10px;
+  width: 50%;
+}
+
+#p3 {
+  border-top:solid 2px darkblue;
+  border-right: solid 2px green;
+  border-bottom: solid 2px orangered;
+  border-left: solid 2px gray;
+  color: blue;
+  padding: 10px;
+  width: 50%;
+}
+
+#p4 {
+  border: dotted 2px #ffda0b;
+  color: blue;
+  padding: 10px;
+  width: 50%;
+}

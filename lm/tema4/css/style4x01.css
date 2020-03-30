@@ -1,0 +1,23 @@
+.gris {
+  background-color: #aaaaaa;
+}
+
+.cuadro1 {
+  border: solid 1px #aaaaaa;
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 20%;
+}
+
+.cuadro2 {
+  border: solid 20px #aaaaaa;
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 20%;
+}
