@@ -1,43 +1,73 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <title>Lenguaje de Marcas</title>
-    <link rel ="icon" type = "image/png" href = "img/logolm.png">
-    <link rel = "stylesheet" href = "css/stylelm.css">
-  </head>
-  <body>
-    <header>
-        <img src = "img/banner.png" alt = "Lenguaje de Marcas" title = "">
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <link rel = "stylesheet" href = "css/style.css">
+  <link rel ="icon" type = "image/png" href = "img/logolm.png">
+  <link rel="alternate" type="application/rss+xml" title="David Pérez RSS" href="noticias.rss">
+  <title>Lenguaje de Marcas</title>
+</head>
+<body>
+  <header><img class = "banner" src = "img/banner.png" alt = "Lenguaje de Marcas" title = ""></header>
+  <nav>
+    <a class = "boton" href = "#actividades">Actividades de clase</a>
+    <h3>Temas</h3>
+    <a class = "boton" href = "#tema1">Tema 1</a>
+    <a class = "boton" href = "#tema2">Tema 2</a>
+    <a class = "boton" href = "#tema3">Tema 3</a>
+    <a class = "boton" href = "#tema4">Tema 4</a>
+    <a class = "boton" href = "#tema5">Tema 5</a>
+    <h3></h3>
+    <a class = "boton" href = "#proyectos">Proyectos</a>
+    <a class = "boton" href = "#examenes">Exámenes</a>
+    
+    <h3></h3>
+    <p><a href = "https://przdavid.github.io/"><img src = "img/logoportfolio.png" alt = "Portfolio" title = "Portfolio" widht = "70" height= "70"></a></p>
+    <p><a type = "application/rss+xml" href="news.rss"><img src = "img/rss.png" alt = "RSS" title = "RSS" widht = "50" height= "50"></a></p>
+  </nav>
+  <main>
     <article>
-        <center><h1>Actividades de clase</h1></center>
-        <div>
-          <a class = "boton tema" href = "https://przdavid.github.io/lm/tema1/tema1.html">Tema 1</a>
-          <a class = "boton tema" href = "https://przdavid.github.io/lm/tema2/tema2.html">Tema 2</a>
-          <a class = "boton tema" href = "https://przdavid.github.io/lm/tema3/tema3.html">Tema 3</a>
-          <a class = "boton tema" href = "https://przdavid.github.io/lm/tema4/tema4.html">Tema 4</a>
-        </div>
-      </article>
-      <article>
-        <center><h1>Proyectos</h1></center>
-        <div>
-          <a class = "boton proyecto" href = "https://przdavid.github.io/lm/ccp/index.html" target = "_blank">Turismo Córdoba</a>
-          <a class = "boton proyecto" href = "https://przdavid.github.io/lm/recetas/index.html" target = "_blank">Recetas</a>
-        </div>
-      </article>
-      <article>
-        <center><h1>Exámenes</h1></center>
-        <div>
-          <a class = "boton examen" href = "examen1.html" target = "_blank">Examen HTML</a>
-        </div>
-      </article>
-      <article>
-        <a class = "index" href = "https://przdavid.github.io/index.html">Volver al portfolio</a>
-      </article>
-  </body>
+      <h1 id = "actividades">Actividades de clase</h1>
+      <h2 id = "tema1">Tema 1</h2>
+      <p><center><a class = "enlace" href = "tema1/presentacion.pdf" target = "_blank">Presentación</a></center></p>
+      <p><center><a class = "enlace" href = "tema1/tinosawikiloc.pdf" target = "_blank">Wikiloc</a></center></p>
+      <h2 id = "tema2">Tema 2</h2>
+      <p><center><a class = "enlace" href = "tema2/probandohttp.pdf" target = "_blank">Probando HTTP</a></center></p>
+      <p><center><a class = "enlace" href = "tema2/cuestionario.pdf" target = "_blank">Cuestionario</a></center></p>
+      <p><center><a class = "enlace" href = "tema2/colabora.txt" target = "_blank">Colabora</a></center></p>
+      <h2 id = "tema3">Tema 3</h2>
+      <p><center><a class = "enlace" href = "tema3/estructuras.html" target = "_blank">Estructuras</a></center></p>
+      <p><center><a class = "enlace" href = "tema3/enlaces.html" target = "_blank">Enlaces</a></center></p>
+      <p><center><a class = "enlace" href = "tema3/imagenes.html" target = "_blank">Imágenes</a></center></p>
+      <p><center><a class = "enlace" href = "tema3/listas.html" target = "_blank">Listas</a></center></p>
+      <p><center><a class = "enlace" href = "tema3/tablas.html" target = "_blank">Tablas</a></center></p>
+      <p><center><a class = "enlace" href = "tema3/formularios.html" target = "_blank">Formularios</a></center></p>
+      <h2 id = "tema4">Tema 4</h2>
+      <p><center><a class = "enlace" href = "tema4/bloque1.html" target = "_blank">Bloque 1</a></center></p>
+      <p><center><a class = "enlace" href = "tema4/bloque2.html" target = "_blank">Bloque 2</a></center></p>
+      <p><center><a class = "enlace" href = "tema4/bloque3.html" target = "_blank">Bloque 3</a></center></p>
+      <h2 id = "tema5">Tema 5</h2>
+      <p><center><a class = "enlace" href = "tema5/sticky.html" target = "_blank">Posicionamiento sticky</a></center></p>
+      <p><center><a class = "enlace" href = "tema5/flexbox.html" target = "_blank">Flexbox</a></center></p>
+      <p><center><a class = "enlace" href = "tema5/cssgrid.html" target = "_blank">CSS Grid</a></center></p>
+      <p><center><a class = "enlace" href = "tema5/query.html" target = "_blank">Media Query</a></center></p>
+      <p><center><a class = "enlace" href = "tema5/responsive.html" target = "_blank">Diseño responsive</a></center></p>
+    </article>
+    <article>
+      <h1 id = "proyectos">Proyectos</h1>
+      <p><center><a class = "enlace" href = "../ccp/index.html" target = "_blank">Turismo Córdoba</a></center></p>
+      <p><center><a class = "enlace" href = "#" target = "_blank">Las recetas de la abuela</a></center></p>
+    </article>
+    <article>
+      <h1 id = "examenes">Exámenes</h1>
+      <p><center><a class = "enlace" href = "examen1/examen1.html" target = "_blank">Examen HTML</a></center></p>
+      <p><center><a class = "enlace" href = "examen2/index.html" target = "_blank">Examen CSS</a></center></p>
+      <p><center><a class = "enlace" href = "examen3/index.html" target = "_blank">Examen Diseño Web</a></center></p>
+    </article>
+  </main>
   <footer>
     &copy; Todos los derechos reservados.
     <address>David Pérez Ruiz</address>
   </footer>
+</body>
 </html>
