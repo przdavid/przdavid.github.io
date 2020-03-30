@@ -1,0 +1,165 @@
+/* David Pérez Ruiz */
+
+@media (min-width: 580px) {
+    #ejercicio1 {
+        display: grid;
+        width: 99%;
+        height: 580px;
+        grid-template-areas: "header header aside"
+                              "nav main main"
+                              "nav footer footer";
+        grid-template-rows: 10% 80% 10%;
+        grid-template-columns: 15% 75% 9%;
+        grid-gap: 5px;
+    }
+
+    #ejercicio1 > header {
+        grid-area: header;
+        background-color: #808080;
+        padding: 10px;
+    }
+
+    #ejercicio1 > aside {
+        grid-area: aside;
+        background-color: #808080;
+        padding: 10px;
+    }
+
+    #ejercicio1 > nav {
+        grid-area: nav;
+        background-color: #808080;
+        padding: 10px;
+    }
+    #ejercicio1 > main {
+        grid-area: main;
+        background-color: #808080;
+        padding: 10px;
+    }
+
+    #ejercicio1 > footer {
+        grid-area: footer;
+        background-color: #808080;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 580px) {
+    #ejercicio1 {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        justify-content: space-between;
+        width: 97%;
+        height: 470px;
+    }
+    
+    #ejercicio1 > header {
+        background-color: #808080;
+        padding: 10px;
+        height: 40px;
+    }
+    
+    #ejercicio1 > aside {
+        background-color: #808080;
+        padding: 10px;
+        height: 20px;
+    }
+    
+    #ejercicio1 > nav {
+        background-color: #808080;
+        padding: 10px;
+        height: 110px;
+    }
+    #ejercicio1 > main {
+        background-color: #808080;
+        padding: 10px;
+        height: 150px;
+    }
+    
+    #ejercicio1 > footer {
+        background-color: #808080;
+        padding: 10px;
+        height: 20px;
+    }
+}
+
+@media (min-width: 400px) {
+    #ejercicio2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #008000;
+        color: white;
+        width: 99%;
+        height: 50px;
+    }
+
+    .logo {
+        width: 100px;
+        padding: 5px;
+    }
+
+    .inicio {
+        width: 100px;
+        padding: 5px;
+    }
+
+    .productos {
+        width: 100px;
+        padding: 5px;
+    }
+
+    .servicio {
+        width: 100px;
+        padding: 5px;
+    }
+
+    #ejercicio2 .barra {
+        width: 100px;
+        padding: 5px;
+        margin-left: auto;
+    }
+
+    input {
+        width: 70px;
+    }
+}
+
+@media (max-width: 400px) {
+    #ejercicio2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #008000;
+        color: white;
+        width: 99%;
+        height: 80px;
+    }
+
+    .logo {
+        padding: 5px;
+    }
+
+    .inicio {
+        padding: 5px;
+    }
+
+    .productos {
+        padding: 5px;
+    }
+
+    .servicio {
+        padding: 5px;
+    }
+
+    #ejercicio2 .barra {
+        padding: 5px;
+    }
+
+    input {
+        width: 200px;
+    }
+}
