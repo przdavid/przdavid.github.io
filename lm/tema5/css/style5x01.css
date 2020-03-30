@@ -1,0 +1,18 @@
+h1 {
+    font-size: 50px;
+    border-bottom: solid 2px black;
+}
+
+dt {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+dd {
+    font-size: 20px;
+}
