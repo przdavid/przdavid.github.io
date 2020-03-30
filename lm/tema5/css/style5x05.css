@@ -1,0 +1,44 @@
+@media (max-height: 768px) {
+    
+    main, header, section, aside, footer {
+        margin: 0px;
+        color: white;
+        background-color: grey;
+        padding: 20px;
+    }
+    
+    header {
+        background-color: red;
+    }
+
+    .hero {
+        background-color: gold;
+    }
+
+    .content {
+        background-color: green;
+    }
+    
+    aside {
+        background-color: blue;
+    }
+    
+    footer {
+        background-color: purple;
+    }
+}
+
+@media (min-width: 640px) {
+    .flex-container {
+        display: flex;
+    }
+
+    .content {
+        flex: 1;
+        background-color: green;
+    }
+
+    .sidebar {
+        flex: 0 1 320px;
+    }
+}

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+      height: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-areas: "nav header"
+                          "nav article"
+                          "nav ads"
+                          "nav footer";
+    grid-template-columns: 125px 1fr;
+    grid-template-rows: 80px 1fr 70px 70px;
+    grid-gap: 10px;
+}
+
+body > nav {
+    grid-area: nav;
+    background-color: #9acd32;
+    padding: 20px;
+}
+
+body > header {
+    grid-area: header;
+    background-color: #9acd32;
+    padding: 20px;
+}
+
+body > article {
+    grid-area: article;
+    background-color: #9acd32;
+    padding: 20px;
+}
+
+body > ads {
+    grid-area: ads;
+    background-color: #9acd32;
+    padding: 20px;
+}
+
+body > footer {
+    grid-area: footer;
+    background-color: #9acd32;
+    padding: 20px;
+}

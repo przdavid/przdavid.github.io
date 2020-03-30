@@ -1,0 +1,19 @@
+.flexcontainer {
+    display: flex;
+    background-color: #f6f3eb;
+    width: 460px;
+}
+
+.flexcontainer > div {
+    margin: 0px 10px 0px 10px;
+    padding: 0px 15px 0px 15px;
+}
+
+.telefono:after {
+    content: ' \260E';
+    font-size: 50px;
+}
+
+strong {
+    font-size: 20px;
+}

@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: grey;
+}
+
+@media (max-height: 550px) {
+    body {
+        background-color: gold;
+    }
+}
+
+@media (max-height: 480px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media (max-height: 320px) {
+    body {
+        background-color: red;
+    }
+}
