@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Portfolio de David Pérez Ruiz</title>
+    <link>https://przdavid.github.io/</link>
+    <description>Página personal de David Pérez Ruiz.</description>
+    <item>
+      <title>Córdoba Ciudad Patrimonio</title>
+      <link>https://przdavid.github.io/lm/ccp/index.html</link>
+      <description>Página de turimso de Córdoba, ciudad Patrimonio.</description>
+    </item>
+  </channel>
+</rss>
