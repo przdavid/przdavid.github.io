@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE almacen [
+<!ELEMENT almacen (pedido+)>
+<!ELEMENT pedido (nombre, producto, direccion, fecha_entrega)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT producto (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT fecha_entrega (#PCDATA)>
+]>
+
+<almacen>
+  <pedido>
+    <nombre>Juan Delgado Martínez</nombre>
+    <producto>Bicicleta A2023</producto>
+    <direccion>Calle Barco 4, 3ºA</direccion>
+    <fecha_entrega>19/5/2000</fecha_entrega>
+  </pedido>
+</almacen>

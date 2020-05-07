@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE geografia-mudial [
+<!ELEMENT geografia-mudial (paises)>
+<!ELEMENT paises (pais, continente, capital)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT continente (#PCDATA)>
+<!ELEMENT capital (#PCDATA)>
+]>
+
+<geografia-mundial>
+    <paises> 
+      <pais>España</pais>
+      <continente>Europa</continente>
+      <capital nombre="Madrid"></capital>
+    </paises>
+</geografia-mundial>
+
+<!-- Errores solucionados:
+  - La etiqueta <geografia-mundial> estaba separada por espacios.
+  - Eliminada la repetición de la etiqueta <pais>. La etiqueta padre pasa a llamarse <paises>
+-->

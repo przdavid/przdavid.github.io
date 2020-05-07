@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gofres [
+<!ELEMENT gofres (gofre+)>
+<!ELEMENT gofre (nombre, precio, descripcion, calorias)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT calorias (#PCDATA)>
+]>
+
+<gofres>
+  <gofre>
+    <nombre>Gofres belgas</nombre>
+    <precio>5.95€</precio>
+    <descripcion>Dos de nuestros famosos gofres belgas con abundante sirope.</descripcion>
+    <calorias>650</calorias>
+  </gofre>
+  <gofre>
+    <nombre>Gofres belgas con fresas</nombre>
+    <precio>7.95€</precio>
+    <descripcion>Ligeros gofres belgas cubiertos de fresa y nata montada.</descripcion>
+    <calorias>900</calorias>
+  </gofre>
+  <gofre>
+    <nombre>Gofres belgas con frutas del bosque</nombre>
+    <precio>8.95€</precio>
+    <descripcion>Ligeros gofres belgas cubiertos con frutas del bosque y nata montada.</descripcion>
+    <calorias>900</calorias>
+  </gofre>
+  <gofre>
+    <nombre>Tostada francesa</nombre>
+    <precio>4.50€</precio>
+    <descripcion>Dos gruesas rebanadas de nuestro pan francés casero.</descripcion>
+    <calorias>600</calorias>
+  </gofre>
+  <gofre>
+    <nombre>Desayuno de la casa</nombre>
+    <precio>6.95€</precio>
+    <descripcion>Dos huevos, bacon o salchichas, tostada y patatas fritas.</descripcion>
+    <calorias>950</calorias>
+  </gofre>
+</gofres>
